@@ -56,6 +56,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
-  #Use postgres as the databse for 
-  gem 'pg'
+  #Use postgres as the databse for production 
+  gem 'pg', '~> 1.2', '>= 1.2.3'
 end
